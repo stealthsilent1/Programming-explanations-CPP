@@ -12,7 +12,7 @@ int main()
     cout<<"2 " << &Val<< "         Val's memmory address" <<"\n";                                                        // Val's memmory address
     cout<<"3 " << p<< "         Val's memory address, because p = &Val" << "\n";                                         // Val's memory address, because p = &Val
     cout<<"4 " << *p<< "                     * before a pointer returns the value inside that memory address," <<"\n";   // * before a pointer returns the value inside that memory address,
-    cout<<"5 " << &p<< "         Memory address of Pointer itself" << "\n";                                               // Memory address of Pointer itself
+    cout<<"5 " << &p<< "         Memory address of Pointer itself" << "\n";                                              // Memory address of Pointer itself
     
 
     return 0;
