@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Val = 54; // Val is 54
+    int* p; // p is turned into memmory storage variable
+    p = &Val; // &Val returns memmory address, any variable and & returns memory address, EX: &p &x &study
+    
+    cout<<"1 " << Val<< "                     Val = 54 "<< "\n" ;                                                        // Val = 54
+    cout<<"2 " << &Val<< "         Val's memmory address" <<"\n";                                                        // Val's memmory address
+    cout<<"3 " << p<< "         Val's memory address, because p = &Val" << "\n";                                         // Val's memory address, because p = &Val
+    cout<<"4 " << *p<< "                     * before a pointer returns the value inside that memory address," <<"\n";   // * before a pointer returns the value inside that memory address,
+    cout<<"5 " << &p<< "         Memory address of Pointer itself" << "\n";                                               // Memory address of Pointer itself
+    
+
+    return 0;
+}
