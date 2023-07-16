@@ -6,7 +6,7 @@ int main()
 {
     int Val = 54; // Val is 54
     int* p; // p is turned into memmory storage variable
-    p = &Val; // &Val returns memmory address, any variable and & returns memory address, EX: &p &x &study
+    p = &Val; // &Val returns memmory address, any variable + & returns memory address, EX: &p &x &study, the memory address is stored in the p(memory storage variable) variable. 
     
     cout<<"1 " << Val<< "                     Val = 54 "<< "\n" ;                                                        // Val = 54
     cout<<"2 " << &Val<< "         Val's memmory address" <<"\n";                                                        // Val's memmory address
